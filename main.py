@@ -3,7 +3,7 @@ import numpy as np
 
 INPUT_FILE = ["../originalData/Jam pagi.mp4", "../originalData/Jam siang.mp4", "../originalData/Jam Malam.mp4"] # 0 is morning; 1 is daytime; 2 is nighttime
 TARGET_SIZE = (640, 640)
-TARGET_FPS = 1
+TARGET_FPS = 15
 
 
 INPUT_SWITCH = int(input("Select which file to preprocess: 0 is morning, 1 is daytime, 2 is nighttime "))
