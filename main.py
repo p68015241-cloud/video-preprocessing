@@ -57,6 +57,9 @@ while cap.isOpened():
         
         if output_frame_index % 100 == 0:
             print(f"Saved {output_frame_index} frames...")
+        
+        if output_frame_index == 5000:
+            break
 
     frame_count += 1
 
